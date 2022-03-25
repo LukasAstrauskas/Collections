@@ -3,5 +3,5 @@ Collections tasks from https://www.w3resource.com/java-exercises/collection/inde
 
 ### Completed:
 	HashSet
-	HashMap
+	HashMap (with partials tests)
 
