@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class tasksHashSet<T> {
+public class TasksHashSet<T> {
     //Write a Java program to append the specified element to the end of a hash set.
     public HashSet<T> append(HashSet<T> set, T t) {
         set.add(t);

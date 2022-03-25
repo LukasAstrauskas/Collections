@@ -2,13 +2,14 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Set;
 
-public class tasksHashMap<K, V> {
+public class TasksHashMap<K, V> {
 
 //1. Write a Java program to associate the specified value with the specified key in a HashMap.
 
     public String addKeyValueToHashMap(K key, V value, HashMap<K, V> map) {
-        map.put(key, value);
-        return "Added value:" + value + ", with key: " + key + ".";
+        V put = map.put(key, value);
+        String string = put == null ? "New val" : put.toString();
+        return string;
     }
 
     //2. Write a Java program to count the number of key-value (size) mappings in a map.
@@ -17,8 +18,9 @@ public class tasksHashMap<K, V> {
     }
 
     //3. Write a Java program to copy all the mappings from the specified map to another map.
-    public HashMap<K, V> copyAll(HashMap<K, V> map) {
-        return new HashMap<K, V>(map);
+    public HashMap<K, V> copyAll(HashMap<K, V> copyTo, HashMap<K, V> copyFrom) {
+        copyTo.putAll(copyFrom);
+        return copyTo;
     }
 
     //4. Write a Java program to remove all the mappings from a map.
