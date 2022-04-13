@@ -6,6 +6,8 @@ public class Main {
     public static void main(String[] args) {
         // write your code here
 
+//        Doing no commit, straight pushing.
+
 //        HashMap<Integer, String> map = new HashMap<>();
 //        TasksHashMap<Integer, String> tasks = new TasksHashMap<>();
 //        String john = tasks.addKeyValueToHashMap(1, "John", map);
