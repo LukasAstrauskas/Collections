@@ -27,8 +27,12 @@ public class HashingPassword {
         return passwordHashedString;
     }
 
-    public void emptyMethod(){
-        System.out.println("Doing nothing.");
+    public void emptyMethod(int number){
+        String add = "";
+        for (int i = 0; i < number; i++) {
+          add.concat("i");
+        }
+        System.out.println(add);
     }
 
 }
