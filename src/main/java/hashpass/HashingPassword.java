@@ -27,15 +27,13 @@ public class HashingPassword {
         return passwordHashedString;
     }
 
-    public String emptyMethod() {
-        boolean isTrue = true;
+    public int emptyMethod() {
         int numberToIncrease =0;
         while (numberToIncrease<10) {
-            System.out.println("ON Main branch");
-            isTrue = !isTrue;
+            System.out.println("Main branch");
             numberToIncrease++;
         }
-          return  String.valueOf(isTrue);
+          return  numberToIncrease;
     }
 
 }
