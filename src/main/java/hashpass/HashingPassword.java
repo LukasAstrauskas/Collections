@@ -27,15 +27,16 @@ public class HashingPassword {
         return passwordHashedString;
     }
 
-    public String emptyMethod() {
-        boolean isTrue = true;
+    public void countingMethod() {
+        System.out.println("Branch packed");
         int numberToIncrease =0;
-        while (numberToIncrease<10) {
+        SecureRandom random = new SecureRandom();
+        while (numberToIncrease<100) {
             System.out.println("Demo branch");
-            isTrue = !isTrue;
-            numberToIncrease++;
+            numberToIncrease = (numberToIncrease+1)*2;
+            numberToIncrease+= random.nextInt(20);
         }
-          return  String.valueOf(isTrue);
+        System.out.println(numberToIncrease);
     }
 
 }
