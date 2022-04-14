@@ -29,10 +29,11 @@ public class HashingPassword {
 
     public void emptyMethod() {
         boolean isTrue = true;
-        int numberToIncrease =0;
-        while (numberToIncrease<10) {
-            System.out.println("Some text");
-            numberToIncrease++;
+        int numberIncrease =0;
+        
+        while (numberIncrease<20) {
+            System.out.println("Demo Text");
+            numberIncrease++;
         }
 
     }
