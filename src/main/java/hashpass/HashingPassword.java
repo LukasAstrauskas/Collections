@@ -27,12 +27,17 @@ public class HashingPassword {
         return passwordHashedString;
     }
 
-    public void emptyMethod(int number){
-        String add = "";
-        for (int i = 0; i < number; i++) {
-          add.concat("i");
+    public void emptyMethod() {
+        boolean isTrue = true;
+        int alot = 0;
+        while (isTrue) {
+            System.out.println("Endless loop");
+            alot++;
+            if (alot == 100) {
+                isTrue = false;
+            }
         }
-        System.out.println(add);
+
     }
 
 }
