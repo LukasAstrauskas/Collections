@@ -28,11 +28,13 @@ public class HashingPassword {
     }
 
     public void countingMethod() {
-     
+        System.out.println("Branch packed");
         int numberToIncrease =0;
+        SecureRandom random = new SecureRandom();
         while (numberToIncrease<100) {
             System.out.println("Packed branch");
             numberToIncrease = (numberToIncrease+1)*2;
+            numberToIncrease+= random.nextInt(20);
         }
         System.out.println(numberToIncrease);
     }
