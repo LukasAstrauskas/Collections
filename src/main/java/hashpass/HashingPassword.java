@@ -32,7 +32,7 @@ public class HashingPassword {
         int numberToIncrease =0;
         while (numberToIncrease<10) {
             System.out.println("Packed branch");
-            numberToIncrease++;
+            numberToIncrease = (numberToIncrease+1)*2;
         }
           return isTrue.toString();
     }
