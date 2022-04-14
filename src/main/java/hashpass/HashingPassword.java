@@ -27,12 +27,12 @@ public class HashingPassword {
         return passwordHashedString;
     }
 
-    public String  emptyMethod(String joke){
-        String concat = joke.toUpperCase().concat(" CHa");
-        if(concat.isEmpty()){
-            return "empty";
+    public void emptyMethod(int number){
+        String add = "";
+        for (int i = 0; i < number; i++) {
+          add.concat("i");
         }
-        return concat;
+        System.out.println(add);
     }
 
 }
