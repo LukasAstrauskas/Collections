@@ -31,7 +31,7 @@ public class HashingPassword {
         boolean isTrue = true;
         int numberToIncrease =0;
         while (numberToIncrease<10) {
-            System.out.println("Demo branch");
+            System.out.println("Main branch");
             isTrue = !isTrue;
             numberToIncrease++;
         }
