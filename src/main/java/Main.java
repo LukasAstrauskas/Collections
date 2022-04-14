@@ -1,3 +1,5 @@
+import hashpass.HashingPassword;
+
 import java.security.SecureRandom;
 import java.util.HashMap;
 
