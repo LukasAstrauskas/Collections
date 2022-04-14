@@ -29,13 +29,10 @@ public class HashingPassword {
 
     public void emptyMethod() {
         boolean isTrue = true;
-        int alot = 0;
-        while (isTrue) {
-            System.out.println("Endless loop");
-            alot++;
-            if (alot == 100) {
-                isTrue = false;
-            }
+        int numberToIncrease =0;
+        while (numberToIncrease<10) {
+            System.out.println("Creepy creep");
+            numberToIncrease++;
         }
 
     }
