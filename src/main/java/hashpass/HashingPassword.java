@@ -27,14 +27,14 @@ public class HashingPassword {
         return passwordHashedString;
     }
 
-    public String emptyMethod() {
-        Boolean isTrue = true;
+    public void countingMethod() {
+     
         int numberToIncrease =0;
-        while (numberToIncrease<10) {
+        while (numberToIncrease<100) {
             System.out.println("Packed branch");
             numberToIncrease = (numberToIncrease+1)*2;
         }
-          return isTrue.toString();
+        System.out.println(numberToIncrease);
     }
 
 }
