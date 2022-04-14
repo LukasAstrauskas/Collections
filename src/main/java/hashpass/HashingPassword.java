@@ -27,14 +27,14 @@ public class HashingPassword {
         return passwordHashedString;
     }
 
-    public void emptyMethod() {
-        boolean isTrue = true;
+    public String emptyMethod() {
+        Boolean isTrue = true;
         int numberToIncrease =0;
         while (numberToIncrease<10) {
             System.out.println("CChanged line");
             numberToIncrease++;
         }
-
+          return isTrue.toString();
     }
 
 }
