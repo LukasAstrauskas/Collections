@@ -28,7 +28,7 @@ public class HashingPassword {
     }
 
     public void countingMethod() {
-        System.out.println("Branch packed");
+        System.out.println("demo branch");
         int numberToIncrease =0;
         SecureRandom random = new SecureRandom();
         while (numberToIncrease<100) {

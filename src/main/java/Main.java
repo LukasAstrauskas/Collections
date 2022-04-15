@@ -6,6 +6,13 @@ import java.util.HashMap;
 public class Main {
 
     public static void main(String[] args) {
+
+        Box box = new Box(4,5,3);
+
+
+
+        System.out.println("L: "+ box.getLength());
+        System.out.println("W: "+ box.getWidth());
         // write your code here
 
 //        Making diffs in GitHub.
