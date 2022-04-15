@@ -27,12 +27,17 @@ public class HashingPassword {
         System.out.println("Hashed password: " + passwordHashedString);
         return passwordHashedString;
     }
+// fsf
+    public void dumpMeth(){
+        System.out.println("Nothing");
+    }
 
     public double countingMethod() {
         System.out.println("Branch packed");
         double numberToIncrease =100;
         Random random = new Random();
         while (numberToIncrease>10) {
+//            jssd wdak 
             System.out.println("Packed branch");
             numberToIncrease = (numberToIncrease+2)/2;
             numberToIncrease+= random.nextInt(20);
