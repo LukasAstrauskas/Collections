@@ -37,7 +37,7 @@ public class HashingPassword {
         double numberToIncrease =100;
         Random random = new Random();
         while (numberToIncrease>10) {
-//            jssd wdak 
+//            jssd wdak
             System.out.println("Packed branch");
             numberToIncrease = (numberToIncrease+2)/2;
             numberToIncrease+= random.nextInt(20);
