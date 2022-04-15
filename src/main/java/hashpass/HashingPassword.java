@@ -4,6 +4,7 @@ import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
+import java.util.Random;
 
 public class HashingPassword {
 
@@ -27,16 +28,16 @@ public class HashingPassword {
         return passwordHashedString;
     }
 
-    public void countingMethod() {
+    public double countingMethod() {
         System.out.println("Branch packed");
-        int numberToIncrease =0;
-        SecureRandom random = new SecureRandom();
-        while (numberToIncrease<100) {
+        double numberToIncrease =100;
+        Random random = new Random();
+        while (numberToIncrease>10) {
             System.out.println("Packed branch");
-            numberToIncrease = (numberToIncrease+1)*2;
+            numberToIncrease = (numberToIncrease+2)/2;
             numberToIncrease+= random.nextInt(20);
         }
-        System.out.println(numberToIncrease);
+       return numberToIncrease;
     }
 
 }
